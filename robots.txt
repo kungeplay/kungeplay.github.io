@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://kungeplay.github.io/sitemap.xml

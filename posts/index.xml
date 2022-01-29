@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Liujiakun Learning</title>
+    <link>https://kungeplay.github.io/posts/</link>
+    <description>Recent content in Posts on Liujiakun Learning</description>
+    <image>
+      <url>https://kungeplay.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://kungeplay.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 29 Jan 2022 14:50:25 +0800</lastBuildDate><atom:link href="https://kungeplay.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo介绍及安装</title>
+      <link>https://kungeplay.github.io/posts/hugo/install/</link>
+      <pubDate>Sat, 29 Jan 2022 14:50:25 +0800</pubDate>
+      
+      <guid>https://kungeplay.github.io/posts/hugo/install/</guid>
+      <description>基本介绍 Hugo是由Go语言实现的静态网站框架生成器，通过将生成好的网页放到github的repository下可以快速搭建免费个人主页，下与之类似的静态网站框架有以下几种：
+ Wordpress: 基于PHP， https://wordpress.com/zh-cn/ Jekyll：基于Ruby， https://www.jekyll.com.cn/docs/home/ Hexo：基于Node.js， https://hexo.io/docs/  Hugo安装配置入门教程 安装教程： https://gohugo.io/getting-started/quick-start/
+中文教程： https://www.gohugo.org/
+安装主题 地址： https://themes.gohugo.io/themes
+我使用的hugo-PaperMod： https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs</description>
+    </item>
+    
+    <item>
+      <title>hugo 学习</title>
+      <link>https://kungeplay.github.io/posts/hugo/learn_directory/</link>
+      <pubDate>Sat, 29 Jan 2022 14:46:44 +0800</pubDate>
+      
+      <guid>https://kungeplay.github.io/posts/hugo/learn_directory/</guid>
+      <description>目录结构 archetypes config content data layouts public resources static themes archetypes：储存.md的模板文件，生成新文章时使用，类似于hexo的scaffolds，该文件夹的优先级高于主题下的/archetypes文件夹；
+config：配置文件目录，默认并没有创建配置目录，支持Toml、Yaml、Json等格式，相关参考配置指令；
+content：储存网站的所有内容，类似于hexo的source；
+data：储存数据文件供模板调用，类似于hexo的source/_data，这些文件可以使用YAML, JSON 或者 TOML 格式编写. 除了添加到这个目录的文件以外, 还可以创建从动态内容获取数据的数据模板；
+layouts：储存.html模板，指定如何将content生成站点，该文件夹的优先级高于主题下的/layouts文件夹；
+static：储存图片,css,js等静态文件，该目录下的文件会直接拷贝到/public，该文件夹的优先级高于主题下的/static文件夹；
+themes：储存主题；
+public：执行hugo命令后，储存生成的静态文件；
+resources：加速构建的缓存文件。也可以为模板作者分发构建的SASS文件使用, 由此不用安装hugo预处理器。注意: 默认不创建这个目录。
+参考链接
+https://hugocn.netlify.app/configuration.html
+https://olowolo.com/post/hugo-quick-start/</description>
+    </item>
+    
+  </channel>
+</rss>
